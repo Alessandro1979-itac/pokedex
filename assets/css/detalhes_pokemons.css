@@ -1,0 +1,164 @@
+.content-detalhes .lista-detalhes {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 0px;
+  list-style: none;
+  background-color: rgb(150, 150, 150);
+  border-radius: 2rem;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.123);
+  background-image: url("../img/bg_pokeball.png");
+  background-position: 120% 120px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.lista-detalhes .voltar-detalhes {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.voltar-detalhes img {
+  width: 28px;
+  height: 28px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.voltar-detalhes img:hover {
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.247);
+}
+
+.lista-detalhes .cabecalho-detalhes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 1rem;
+}
+
+.cabecalho-detalhes .nome-tipos-detalhes {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 0.8rem;
+}
+
+.nome-tipos-detalhes .nome-detalhes {
+  font-size: 2rem;
+  color: #FFF;
+  text-transform: capitalize;
+}
+
+.nome-tipos-detalhes .tipos-detalhes {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 0.3rem;
+}
+
+.tipos-detalhes .slot-tipo-detalhes {
+  margin-right: 0.4rem;
+  padding: 0.2rem 0.8rem;
+  font-size: smaller;
+  color: #FFF;
+  text-transform: capitalize;
+  border-radius: 1rem;
+  background-color: rgb(192, 192, 192);
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.123);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.171);
+}
+
+.cabecalho-detalhes .indice-detalhes {
+  font-weight: bold;
+  color: #FFF;
+}
+
+.lista-detalhes .imagem-detalhes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+.imagem-detalhes img {
+  width: 200px;
+  height: 190px;
+  object-fit: cover;
+  position: relative;
+  top: 3rem;
+}
+
+.lista-detalhes .descricao-detalhes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 2rem;
+  background-color: #FFF;
+}
+
+.descricao-detalhes .atributos-detalhes {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 1.4rem;
+  list-style: none;
+  text-align: start;
+  border-top: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+.atributos-detalhes li {
+  margin-bottom: 1rem;
+}
+
+.atributos-detalhes li:nth-child(odd){
+  margin-right: 1rem;
+  color: rgb(121, 121, 121);
+  font-weight: bold;
+}
+
+.atributos-detalhes .separar {
+  margin-bottom: 2.5rem;
+}
+
+.atributos-detalhes .pontos-detalhes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pontos-detalhes span {
+  width: 52px;
+  text-align: end;
+}
+
+.pontos-detalhes .barra-detalhes {
+  width: 100%;
+  height: 5px;
+  margin-left: 1rem;
+  padding: 0px;
+  border-radius: 1rem;
+  background-color: rgb(218, 218, 218);
+}
+
+.barra-detalhes .valor-barra-detalhes {
+  width: 0%;
+  height: 5px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 1rem;
+  background-color: rgb(95, 155, 46);
+}
