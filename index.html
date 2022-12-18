@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--   Normalize CSS   -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--   Fonts Google Roboto   -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <!--   CSS   -->
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/cabecalho.css">
+  <link rel="stylesheet" href="./assets/css/buscar_flutuante.css">
+  <link rel="stylesheet" href="./assets/css/pokedex.css">
+  <link rel="stylesheet" href="./assets/css/detalhes_pokemons.css">
+  <title>Pokedex</title>
+</head>
+
+<body>
+  <section id="pokemon-lista" class="content-lista">
+    <header class="top-content">
+      <header class="cabecalho">
+        <h1>Pokedex</h1>
+        <div id="buscar-barra">
+            <img id="buscar-icone" src="./assets/img/icone_buscar_cinza.svg" alt="Icone Filtrar">
+        </div>
+      </header>
+        <div class="barra-flutuante">
+          <div id="buscar-flutuante"></div>
+        </div>
+    </header>
+
+    <ol id="pokedex-lista" class="pokedex"></ol>
+
+    <section id="carregando" class="carregando">
+      <img src="./assets/img/carregando.gif" alt="Imagem de Carregamento">
+      <span>Carregando...</span>
+    </section>
+
+  </section>
+
+  <section id="pokemon-detalhes" class="content-detalhes"></section>
+
+  <script src="./assets/js/detalhar_pokemon.js"></script>
+  <script src="./assets/js/buscar_pokemon.js"></script>
+  <script src="./assets/js/poke-api.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -80,8 +80,8 @@ class PokeAPI {
       if (imagem === undefined) {
           if (localImagem !== undefined && localImagem !== null)
             imagem = localImagem;
-           else if (indice === (opcoesImagem.length - 1))
-            imagem = './assets/imagens/pokeball.png';
+          else if (indice === (opcoesImagem.length - 1))
+            imagem = './assets/img/pokeball.png';
       }
     });
 

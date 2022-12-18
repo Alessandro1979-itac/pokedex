@@ -50,12 +50,12 @@
 
 @media screen and (max-width: 500px) {
   #buscar-barra img {
-      background-color: transparent;
-      filter: invert(100%);
-      cursor: pointer;
+    background-color: transparent;
+    filter: invert(100%);
+    cursor: pointer;
   }
 
   #buscar-barra input {
-      display: none;
+    display: none;
   }
 }

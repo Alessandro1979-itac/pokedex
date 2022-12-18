@@ -35,7 +35,7 @@ function apresentarDetalhes(pokemon, atributosMax) {
   liDescricao.className = 'descricao-detalhes';
 
   let imgVoltar = document.createElement('img');
-  imgVoltar.src = './assets/imagens/seta_voltar.svg';
+  imgVoltar.src = './assets/img/seta_voltar.svg';
   imgVoltar.alt = 'Imagem Voltar';
   imgVoltar.id = 'imagem-voltar-detalhes';
   imgVoltar.addEventListener('click', () => {
