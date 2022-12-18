@@ -1,0 +1,50 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  background-image: url("../img/bg_pokeball_grey.png");
+  background-position: -142px -179.5px;
+  background-repeat: no-repeat;
+  background-size: 460px;  
+}
+
+.content-lista {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0.6rem;
+}
+
+.content-lista .carregando {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.carregando img {
+  width: 30%;
+}
+
+.carregando span {
+  color: rgb(78, 78, 78);
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+
+.content-detalhes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#pokemon-detalhes {
+  display: none;
+}
