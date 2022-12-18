@@ -1,0 +1,22 @@
+.content-lista .barra-flutuante {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+
+.barra-flutuante #buscar-flutuante {
+  display: none;
+  padding: 0.2rem;
+  padding-right: 1rem;
+  border-radius: 0.6rem;
+  background-color: rgb(78, 78, 78);
+}
+
+#buscar-flutuante input {
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 0.6rem;
+}
+
+#buscar-flutuante input:disabled {
+  background-color: #FFF;
+}
